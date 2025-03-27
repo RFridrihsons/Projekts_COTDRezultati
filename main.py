@@ -18,7 +18,7 @@ df = pd.read_sql_query("SELECT * FROM Results", db)
 def home():
     return flask.render_template('home.html')
 
-@app.route('/info', methods=['GET', 'POST'])
+@app.route('/info')
 def info():
     return flask.render_template('info.html')
 
