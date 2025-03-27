@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Līniju grafiki</title>
+</head>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+</style>
+<body>
+    <h2>Kvalifikācijas pozīcijas</h2>
+    <img src="{{ line1 }}", alt=""> <br>
+    <h2>Divīzijas</h2>
+    <img src="{{ line2 }}", alt=""> <br>
+    <h2>Divīzijas pozīcijas</h2>
+    <img src="{{ line3 }}", alt=""> <br>
+    <h2>Fināla pozīcijas</h2>
+    <img src="{{ line4 }}", alt=""> <br>
+    <a href="{{ url_for('home') }}">Mājaslapa</a>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mājaslapa ļoti sliktam projektam</title>
+</head>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+</style>
+<body>
+    <h1>Visus projektā veidotos grafikus var atrast šeit! </h1>
+    <h2> Projekta autors: Ralfs Fridrihsons </h2> 
+    <a href="{{ url_for('info') }}">Informācija par datiem</a> <br>
+    <a href="{{ url_for('download') }}">Lejupielādēt CSV</a> <br>
+    <br>
+    <h4>Grafiki</h4>
+    <a href="{{ url_for('linegraphs') }}">Līnijveida grafiki visām vērtībām</a> <br>
+    <a href="{{ url_for('histograms') }}">Histogrammas divīzijām un divīziju pozīcijām</a> <br>
+    <h4>Speciālie grafiki</h4>
+    <a href="{{ url_for('multiline') }}">Kvalifikācijas + Fināla pozīcijas</a> <br>
+    <a href="{{ url_for('divisions') }}">Divīziju biežums</a> <br>
+    <a href="{{ url_for('scatter') }}">Izkliede starp divīzijām un pozīciju</a> <br>
+</body>
+</html>

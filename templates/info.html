@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informācija</title>
+</head>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+</style>
+<body>
+    <h1>Kas ir COTD?</h1>
+    COTD (pilnais nosaukums: Cup of the Day) ir ikdienas turnīrs videospēlē Trackmania, kurā katru dienu 20:00 (pēc Latvijas laika) tiek publicēta jauna trase, kuru neviens iepriekš nav redzējis.<br>
+    Ir dots laiks 15 minūtes, lai uzstādītu pēc iespējas ātrāku laiku, pēc tam visi dalībnieki tiek salikti divīzijās pa 64 spēlētājiem.<br>
+    Divīzijā tiek spēlēti raundi, kuros izkrīt lēnākie spēlētāji (pa 4 līdz 16, pa 2 līdz 8 un tad pa vienam līdz ir uzvarētājs)<br>
+    <br>
+    <h1>Kādi dati ir datubāzē?</h1>
+    Datubāze sastāv no maniem (lietotājvārds: LuckyError) COTD rezultātiem periodā no 2024. gada maijam līdz 2024. gada jūlijam tā sastāv no 5 kolonnām:<br>
+    Datums - datums, kurā notika šis COTD<br>
+    Kvalifikācijas pozīcija - pozīcija pēc pirmajām 15 minūtēm<br>
+    Divīzija - 64 spēlētāju divīzija, kurā es iekļuvu<br>
+    Pozīcija divīzijā - vieta, ko ieguvu divīzijas raundos<br>
+    Fināla pozīcija - kopējā COTD pozīcija (divīzijas pozīcija + visi spēlētāji augstākās divīzijās)<br> <br>
+    <a href="{{ url_for('home') }}">Mājaslapa</a>
+</body>
+</html>
